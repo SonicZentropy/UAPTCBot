@@ -219,7 +219,7 @@ namespace UAPTCBot.Bots
 
 
                 await stepContext.Context.SendActivityAsync(
-                    MessageFactory.Text($"You self reported {choicestr}. PLEASE DO NOT COME TO WORK!"),
+                    MessageFactory.Text($"You self reported {choicestr}. PLEASE DO NOT COME TO WORK!  Call your supervisor to advise them of your illness."),
                     cancellationToken);
             }
 
