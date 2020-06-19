@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "groupLocation": {
+            "value": "centralus"
+        },
+        "groupName": {
+            "value": "UAPTCBotGroup"
+        },
+      "appId": {
+        "value": "939489d7-84a2-4c08-9c5e-16be0ee1521d"
+      },
+      "appSecret": {
+        "value": "suGhTEraLOGiShAC"
+      },
+        "botId": {
+            "value": "UAPTCBot"
+        },
+      "botSku": {
+        "value": "F0"
+      },
+        "newAppServicePlanName": {
+            "value": "BotServicePlan"
+        },
+        "newAppServicePlanSku": {
+            "value": {
+                "name": "S1",
+                "tier": "Standard",
+                "size": "S1",
+                "family": "S",
+                "capacity": 1
+            }
+        },
+        "newAppServicePlanLocation": {
+            "value": "centralus"
+        },
+        "newWebAppName": {
+            "value": "UAPTCBot"
+        }
+    }
+}
